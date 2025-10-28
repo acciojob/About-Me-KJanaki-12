@@ -1,1 +1,48 @@
+.container{
+	display: flex;
+}
+.mainDetails{
+	width: 50%;
+}
 
+.aboutMe{
+	width: 50%;
+}
+
+.skills {
+  margin-top: 10px;
+}
+
+.skills h2 {
+  margin-bottom: 10px;
+}
+
+.skill {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.skill p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.progress {
+  background: #e6e6e6;
+  height: 6px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar {
+  background: #007bff;
+  height: 100%;
+}
+
+.skill span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 13px;
+  color: #333;
+}
